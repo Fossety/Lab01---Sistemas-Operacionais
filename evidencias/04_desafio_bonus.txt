@@ -1,0 +1,54 @@
+$ python3 desafio_bonus.py   # execucao 1
+=== SEM Lock ===
+[*] Depositos : 2 threads x 100000 x R$ 1.00
+[*] Saques    : 1 thread  x 100000 x R$ 1.00
+[*] Saldo Esperado : R$ 100,000.00
+[!] Saldo Obtido   : R$ 100,355.00
+[*] Tempo de Execucao : 0.1334 s
+[ALERTA] Saldo inconsistente (diferenca de R$ 355.00)
+
+=== COM Lock ===
+[*] Depositos : 2 threads x 100000 x R$ 1.00
+[*] Saques    : 1 thread  x 100000 x R$ 1.00
+[*] Saldo Esperado : R$ 100,000.00
+[!] Saldo Obtido   : R$ 100,000.00
+[*] Tempo de Execucao : 0.3792 s
+[OK] Resultado integro.
+
+
+$ python3 desafio_bonus.py   # execucao 2
+=== SEM Lock ===
+[*] Depositos : 2 threads x 100000 x R$ 1.00
+[*] Saques    : 1 thread  x 100000 x R$ 1.00
+[*] Saldo Esperado : R$ 100,000.00
+[!] Saldo Obtido   : R$ -99,690.00
+[*] Tempo de Execucao : 0.1314 s
+[ALERTA] Saldo inconsistente (diferenca de R$ -199,690.00)
+
+=== COM Lock ===
+[*] Depositos : 2 threads x 100000 x R$ 1.00
+[*] Saques    : 1 thread  x 100000 x R$ 1.00
+[*] Saldo Esperado : R$ 100,000.00
+[!] Saldo Obtido   : R$ 100,000.00
+[*] Tempo de Execucao : 0.3835 s
+[OK] Resultado integro.
+
+
+$ python3 desafio_bonus.py   # execucao 3
+=== SEM Lock ===
+[*] Depositos : 2 threads x 100000 x R$ 1.00
+[*] Saques    : 1 thread  x 100000 x R$ 1.00
+[*] Saldo Esperado : R$ 100,000.00
+[!] Saldo Obtido   : R$ -99,328.00
+[*] Tempo de Execucao : 0.1266 s
+[ALERTA] Saldo inconsistente (diferenca de R$ -199,328.00)
+
+=== COM Lock ===
+[*] Depositos : 2 threads x 100000 x R$ 1.00
+[*] Saques    : 1 thread  x 100000 x R$ 1.00
+[*] Saldo Esperado : R$ 100,000.00
+[!] Saldo Obtido   : R$ 100,000.00
+[*] Tempo de Execucao : 0.3696 s
+[OK] Resultado integro.
+
+

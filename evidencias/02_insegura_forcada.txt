@@ -1,0 +1,24 @@
+$ python3 conta_bancaria_insegura_forcada.py   # execucao 1
+[*] Saldo Inicial : 0
+[*] Saldo Esperado : 200000
+[!] Saldo Obtido : 100000
+[*] Tempo de Execucao : 7.3722 s
+
+[ALERTA] Condicao de Corrida detectada! Houve perda de dados (100000 depositos perdidos).
+
+$ python3 conta_bancaria_insegura_forcada.py   # execucao 2
+[*] Saldo Inicial : 0
+[*] Saldo Esperado : 200000
+[!] Saldo Obtido : 100000
+[*] Tempo de Execucao : 7.4690 s
+
+[ALERTA] Condicao de Corrida detectada! Houve perda de dados (100000 depositos perdidos).
+
+$ python3 conta_bancaria_insegura_forcada.py   # execucao 3
+[*] Saldo Inicial : 0
+[*] Saldo Esperado : 200000
+[!] Saldo Obtido : 100000
+[*] Tempo de Execucao : 7.4089 s
+
+[ALERTA] Condicao de Corrida detectada! Houve perda de dados (100000 depositos perdidos).
+

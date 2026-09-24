@@ -1,0 +1,24 @@
+$ python3 conta_bancaria_segura.py   # execucao 1
+[*] Saldo Inicial : 0
+[*] Saldo Esperado : 200000
+[*] Saldo Obtido : 200000
+[*] Tempo de Execucao : 0.0430 s
+
+[OK] Resultado integro.
+
+$ python3 conta_bancaria_segura.py   # execucao 2
+[*] Saldo Inicial : 0
+[*] Saldo Esperado : 200000
+[*] Saldo Obtido : 200000
+[*] Tempo de Execucao : 0.0444 s
+
+[OK] Resultado integro.
+
+$ python3 conta_bancaria_segura.py   # execucao 3
+[*] Saldo Inicial : 0
+[*] Saldo Esperado : 200000
+[*] Saldo Obtido : 200000
+[*] Tempo de Execucao : 0.0425 s
+
+[OK] Resultado integro.
+
